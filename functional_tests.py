@@ -17,7 +17,7 @@ class NewVisitorTest(unittest.TestCase):
 		self.assertIn('To-Do', self.browser.title)
 		# header_text = self.browser.find_element_by_tag_name('h1').text
 		# 最新的版本的selenium已去除此函数
-		header_text = self.browser.find_element(By.CLASS_NAME, 'h1').text
+		header_text = self.browser.find_element(By.TAG_NAME, 'h1').text
 		self.assertIn('To-Do', header_text)
 		# 应用邀请输入一个待办事项
 
@@ -33,8 +33,8 @@ class NewVisitorTest(unittest.TestCase):
 		inputbox.send_keys(Keys.ENTER)
 		time.sleep(1)
 		table = self.browser.find_element(By.ID, 'id_list_table')
-		rows = table.find_elements(By.CLASS_NAME, 'tr')
-		self.assertTrue(any(row.text == '1: Buy peacock feathers' for row in rows))
+		rows = table.find_elements(By.NAME, 'tr')
+		self.assertTrue(any(row.text == '1: Buy peacock feathers' for row in rows), "New to-do item did not appear in table")
 		#页面又显示文本框，输入其他待办事项
 		#输入 “Use peacock feathers to make a fly"
 		self.fail('Finished the test!')
