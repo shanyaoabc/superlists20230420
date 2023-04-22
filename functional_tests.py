@@ -34,7 +34,8 @@ class NewVisitorTest(unittest.TestCase):
 		time.sleep(1)
 		table = self.browser.find_element(By.ID, 'id_list_table')
 		rows = table.find_elements(By.NAME, 'tr')
-		self.assertTrue(any(row.text == '1: Buy peacock feathers' for row in rows), "New to-do item did not appear in table")
+		# self.assertTrue(any(row.text == '1: Buy peacock feathers' for row in rows), f"New to-do item did not appear in table. Contents were:\n{table.text}")
+		self.assertIn('1: Buy peacock feathers',[row.text for row in rows])
 		#页面又显示文本框，输入其他待办事项
 		#输入 “Use peacock feathers to make a fly"
 		self.fail('Finished the test!')

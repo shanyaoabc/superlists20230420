@@ -20,3 +20,8 @@ class  HomePageTest(TestCase):
 		# self.assertIn('<title>To-Do lists</title>', html) # 单元测试由功能测试驱动，而且更接近于真正的代码。编写单元测试时，按照程序员的方式思考。
 		# self.assertTrue(html.endswith('</html>'))
 		self.assertTemplateUsed(response, 'home.html') # assertTemplateUsed是TestCase类方法，检查相应使用的是哪个模版渲染的
+	def test_can_save_a_POST_request(self):
+		response = self.client.post('/', data={'item_text': 'A new list item'})
+		self.assertIn('A new list item', response.content.decode())
+		self.assertTemplateUsed(response, 'home.html')
+		
