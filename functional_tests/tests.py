@@ -1,3 +1,4 @@
+from django.test import  LiveServerTestCase
 from selenium import webdriver
 import unittest
 from selenium.webdriver.common.keys import Keys
@@ -5,7 +6,7 @@ import time
 from selenium.webdriver.common.by import By
 
 
-class NewVisitorTest(unittest.TestCase):
+class NewVisitorTest(LiveServerTestCase):
 	def setUp(self):
 		self.browser = webdriver.Firefox()
 	def teardown(self):
@@ -18,7 +19,8 @@ class NewVisitorTest(unittest.TestCase):
 
 	def test_can_start(self):
 		# 待办事项应用，去看这个应用的首页
-		self.browser.get('http://localhost:8000')
+		# self.browser.get('http://localhost:8000') 不使用硬编码的本地地址，使用LiveServerTestCase提供的live_server_url属性
+		self.browser.get(self.live_server_url)
 		# 网页标题和头部都包含To-Do
 		self.assertIn('To-Do', self.browser.title)
 		# header_text = self.browser.find_element_by_tag_name('h1').text
@@ -56,5 +58,5 @@ class NewVisitorTest(unittest.TestCase):
 		self.fail('Finished the test!')
 		# 页面再次更新，清单有两个待办事项
 
-if __name__ == '__main__':
-	unittest.main()
+# if __name__ == '__main__':
+#	unittest.main()
