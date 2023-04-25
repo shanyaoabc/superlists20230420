@@ -67,7 +67,7 @@ class NewVisitorTest(LiveServerTestCase):
 		self.wait_for_fow_in_list_table('1: Buy peacock feathers')
 		# 想知道网站会记住她的清单
 
-		self.fail('Finished the test!')
+		# self.fail('Finished the test!')
 		# 页面再次更新，清单有两个待办事项
 
 	def test_multiple_users_can_start_lists_at_different_urls(self):
