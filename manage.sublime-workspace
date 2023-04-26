@@ -1,0 +1,440 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"HomePage\t⟠"
+			],
+			[
+				"w",
+				"Warning\ttype ⟠"
+			],
+			[
+				"if",
+				"if __name__ == '__main__':\t★ ⟠"
+			],
+			[
+				"Fin",
+				"Finished\t⟠"
+			],
+			[
+				"SEL",
+				"self.browser\t★ ⟠"
+			],
+			[
+				"IT",
+				"item_text"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"n",
+				"new_list"
+			],
+			[
+				"v",
+				"views"
+			],
+			[
+				"T",
+				"TestCase"
+			],
+			[
+				"N",
+				"new"
+			],
+			[
+				"c",
+				"class\tNew Class"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"test_",
+				"test_uses_home_tmeplate"
+			],
+			[
+				"L",
+				"ListViewTest"
+			],
+			[
+				"i",
+				"items"
+			],
+			[
+				"th",
+				"the-only-list-in-the-world"
+			],
+			[
+				"l",
+				"lists"
+			],
+			[
+				"fin",
+				"find_element_by_id"
+			],
+			[
+				"e",
+				"edith_list_url"
+			],
+			[
+				"fr",
+				"francis_list_url"
+			],
+			[
+				"f",
+				"francis_list_url"
+			],
+			[
+				"s",
+				"self"
+			],
+			[
+				"id",
+				"id_new_item"
+			],
+			[
+				"F",
+				"Firefox"
+			],
+			[
+				"ass",
+				"assertIn"
+			],
+			[
+				"S",
+				"self"
+			],
+			[
+				"find",
+				"find_element_by_id"
+			],
+			[
+				"C",
+				"create"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"p",
+				"POST"
+			],
+			[
+				"R",
+				"request"
+			],
+			[
+				"I",
+				"Item"
+			],
+			[
+				"r",
+				"request"
+			],
+			[
+				"TE",
+				"text"
+			],
+			[
+				"A",
+				"assertEqual"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"first_",
+				"first_saved_item"
+			],
+			[
+				"as",
+				"assertIn"
+			],
+			[
+				"in",
+				"inputbox"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"find_element_by",
+				"find_element_by_tag_name"
+			],
+			[
+				"id_",
+				"id_list_table"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"d",
+				"def\tFunction"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"fi",
+				"find_element_by_id"
+			],
+			[
+				"u",
+				"urls"
+			],
+			[
+				"H",
+				"httpRequest"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"_",
+				"__name__"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/aoyufei/webtest/superlists20230420/superlists20230420/urls.py",
+		"/Users/aoyufei/Library/Python/3.11/bin/virtualenvwrapper.sh",
+		"/Users/aoyufei/webtest/functional_tests.py",
+		"/Users/aoyufei/webtest/test.py",
+		"/Users/aoyufei/Documents/uidump.xml",
+		"/Users/aoyufei/hangman/hello.py",
+		"/Users/aoyufei/zen.txt",
+		"/Users/aoyufei/httprunnerV4project1/profile_override.yaml",
+		"/Users/aoyufei/httprunnerV4project1/profile.yaml",
+		"/Users/aoyufei/Desktop/inke测试用例集.postman_test_run.json",
+		"/Users/aoyufei/Downloads/Inke JIRA 2022-06-24T14_52_18+0800.csv",
+		"/Users/aoyufei/Downloads/活动日志报错.txt",
+		"/Users/aoyufei/Downloads/Code/NODEJS/nodejsTest.js",
+		"/Users/aoyufei/Desktop/foundations-for-analytics-with-python-master/csv/5csv_reader_value_matches_pattern.py",
+		"/Users/aoyufei/Desktop/foundations-for-analytics-with-python-master/csv/pandas_value_meets_condition.py",
+		"/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/kite_tutorial.py",
+		"/Users/aoyufei/superlists/lists/models.py",
+		"/Users/aoyufei/superlists/superlists/settings.py",
+		"/Users/aoyufei/superlists/lists/templates/list.html",
+		"/Users/aoyufei/superlists/lists/templates/home.html",
+		"/Users/aoyufei/superlists/superlists/urls.py",
+		"/Users/aoyufei/superlists/lists/views.py",
+		"/Users/aoyufei/superlists/functional_tests/tests.py",
+		"/Users/aoyufei/superlists/lists/tests.py",
+		"/Users/aoyufei/superlists/functional_tests.py",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 801-803bug总0.xml",
+		"/Users/aoyufei/Downloads/Code/RestultFilter.py",
+		"/Users/aoyufei/Downloads/Code/GitLogCollection.py",
+		"/Users/aoyufei/Desktop/INKEAPP-7221.ipy",
+		"/Users/aoyufei/Downloads/05 测试工作/20 Git代码比对/GitLogCollection(1).py",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 bug日清状态0.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 测试日报模板0.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 7.0.0质量评分表0.xml",
+		"/Users/aoyufei/Downloads/Code/GitLogCollectionNewPro.py",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 620下版本修复问题0.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 各版本数据报表统计11270.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 版本7.0封板表模板V1.3chenbenhui1.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 版本7.0封板表模板V1.3chenbenhui0.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 各版本数据报表统计 11140.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 映客-安卓1122-010.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 映客-安卓11190.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 质量评分表0.xml",
+		"/Users/aoyufei/pythonforexcel/phase_detector.xlsx",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 各版本数据报表统计 (自动保存的) (自动保存的)0.xml",
+		"/Users/aoyufei/test1.py",
+		"/Users/aoyufei/Downloads/Code/get-pip.py",
+		"/Users/aoyufei/Downloads/伤寒论辑义.doc",
+		"/Users/aoyufei/Downloads/01 工具/and_hprof",
+		"/Users/aoyufei/Downloads/Pick.testsuite-deep.xml",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 6.1.7@功能测试用例0.xml",
+		"/Users/aoyufei/Downloads/05 测试工作/14 客户端灰度/bug.txt",
+		"/Users/aoyufei/Downloads/05 测试工作/14 客户端灰度/untitled.txt",
+		"/Users/aoyufei/Downloads/05 测试工作/14 客户端灰度/143809322.txt",
+		"/Users/aoyufei/Downloads/08 书籍/太宰治/人间失格（太宰治）.txt",
+		"/Users/aoyufei/Downloads/log.txt",
+		"/Users/aoyufei/Downloads/05 测试工作/12 小米云测/6.1.3/全面遍历_xm0723.apk_logs/1532315112_xm0723.apk.mi4/1532315112_xm0723.apk.bugreport",
+		"/Users/aoyufei/Downloads/05 测试工作/12 小米云测/6.1.3/全面遍历_xm0723.apk_logs/1532315112_xm0723.apk.bugreport",
+		"/Users/aoyufei/Downloads/05 测试工作/01测试用例/159224549.txt",
+		"/private/var/folders/wq/vwnlznlx5xv0ngldjd3703_40000gn/T/com.microsoft.Excel/修复结果到 613版本封板表(2)0.xml",
+		"/Users/aoyufei/Downloads/log--1-26d21bc6cac444b48ad50e4b802d9118 (1).log",
+		"/Users/aoyufei/Downloads/log--1-26d21bc6cac444b48ad50e4b802d9118.log",
+		"/Users/aoyufei/Downloads/exported_issues.xml",
+		"/Users/aoyufei/Downloads/update.txt",
+		"/Users/aoyufei/Downloads/log1.txt"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
