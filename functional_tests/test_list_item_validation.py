@@ -16,12 +16,12 @@ class ItemValidationTest(FunctionalTest):
 	    # 提示待办事项不能为空
 	    self.wait_for(lambda: self.assertEqual(
 	    	self.browser.find_element(By.CSS_SELECTOR, '.has-error').text,
-	    	"You can't have an empty list item"
+	    	"You cannot have an empty list item"
 	    	))
 	    # 她输入一些文字，然后再次提交，这次没问题了
 	    self.browser.find_element(By.ID, 'id_new_item').send_keys('Buy milk')
 	    self.browser.find_element(By.ID, 'id_new_item').send_keys(Keys.ENTER)
-	    self.wait_for_row_in_list_table('1 buy milk')
+	    self.wait_for_fow_in_list_table('1: Buy milk')
 	    # 她有点儿调皮，又提交了一个空待办事项
 	    self.browser.find_element(By.ID, 'id_new_item').send_keys(Keys.ENTER)
 	    # 在清单页面她看到了一个类似的错误消息
