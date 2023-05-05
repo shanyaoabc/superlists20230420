@@ -1,6 +1,7 @@
 from django.test import TestCase
 from lists.models import Item, List
 from django.utils.html import escape
+from lists.forms import ItemForm
 
 
 
@@ -12,6 +13,12 @@ class  HomePageTest(TestCase):
 	def test_use_home_template(self):
 		response = self.client.get('/') # 不在手动创建httprequest对象，不直接调用视图函数
 		self.assertTemplateUsed(response, 'home.html') # assertTemplateUsed是TestCase类方法，检查相应使用的是哪个模版渲染的
+
+	def test_home_page_uses_item_form(self):
+		response = self.client.get('/')
+		self.assertIsInstance(response.context['form'], ItemForm)
+
+
 
 class ListViewTest(TestCase):
 
@@ -89,6 +96,7 @@ class NewListTest(TestCase):
 		self.client.post('/lists/new', data={'item_text': ''})
 		self.assertEqual(List.objects.count(), 0)
 		self.assertEqual(Item.objects.count(), 0)
+
 
 
 
