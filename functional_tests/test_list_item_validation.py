@@ -34,4 +34,15 @@ class ItemValidationTest(FunctionalTest):
 	    self.wait_for_fow_in_list_table('1: Buy milk')
 	    self.wait_for_fow_in_list_table('2: Make tea')
 
-	    # self.fail('finish this test!')
+	def test_cannnot_add_duplicate_items(self):
+		# 伊迪斯访问首页，新建一个清单
+		self.browser.get(self.live_server_url)
+		self.get_item_input_box().send_keys('Buy wellies')
+		self.get_item_input_box().send_keys(Keys.ENTER)
+		self.wait_for_fow_in_list_table('1: Buy wellies')
+		# 她不不小心输入一个重复的待办事项
+		self.get_item_input_box().send_keys('Buy wellies')
+		self.get_item_input_box().send_keys(Keys.ENTER)
+		# 她看到一条有帮助的错误消息
+		self.wait_for(lambda: self.assertEqual(self.browser.find_element(By.CSS_SELECTOR, '.has-error').text, "You've already got this in your list"))
+
