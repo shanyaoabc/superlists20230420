@@ -2,7 +2,7 @@
 =======================
 ## 需要的包：
 * nginx
-* Python 3.6
+* Python 3.8
 * virtualenv + pip
 * Git
 以Ubuntu为例：

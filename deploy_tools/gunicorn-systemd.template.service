@@ -6,6 +6,6 @@ User=xiaobaobao
 WorkingDirectory=/home/xiaobaobao/sites/SITENAME/source
 ExecStart=/home/xiaobaobao/sites/SITENAME/virtualenv/bin/gunicorn \
     --bind unix:/tmp/SITENAME.socket \
-    superlists.wsgi:application
+    superlists20230420.wsgi:application
 [Install]
 WantedBy=multi-user.target

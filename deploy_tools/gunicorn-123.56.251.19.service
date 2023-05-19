@@ -1,0 +1,11 @@
+[Unit]
+Description=Gunicorn server for 123.56.251.19
+[Service]
+Restart=on-failure
+User=xiaobaobao
+WorkingDirectory=/home/xiaobaobao/sites/123.56.251.19/source
+ExecStart=/home/xiaobaobao/sites/123.56.251.19/virtualenv/bin/gunicorn \
+    --bind unix:/tmp/123.56.251.19.socket \
+    superlists20230420.wsgi:application
+[Install]
+WantedBy=multi-user.target                  
