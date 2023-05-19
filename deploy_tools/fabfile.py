@@ -28,7 +28,7 @@ def _create_directory_structure_if_necessary(site_folder):
 # 使用Git拉取源码
 def _get_lastest_source(source_folder):
 	if exists(source_folder + '/.git'):
-		run(f'cd {site_folder} && git fetch')
+		run(f'cd {source_folder} && git fetch')
 
 	else:
 		run(f'git clone {Repo_URL} {source_folder}')
@@ -52,7 +52,7 @@ def _update_virtualenv(source_folder):
 	virtualenv_folder = source_folder + '/../virtualenv'
 	if not exists(virtualenv_folder + '/bin/pip'):
 		run(f'python3.6 -m venv {virtualenv_folder}')
-	run(f'{virtualenv_folder}/bin/pip/install -r {source_folder}/requirements.txt')
+	run(f'{virtualenv_folder}/bin/pip install -r {source_folder}/requirements.txt')
 
 # 更新静态文件
 def _update_static_files(source_folder):
